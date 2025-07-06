@@ -2,7 +2,7 @@
 
 This repository contains the source code for my personal website and blog, [blog.atomazu.org](https://blog.atomazu.org).
 
-This README is up to date as of [6fc4bc6](https://github.com/atomazu/atomazu.org/commit/6fc4bc60f79ee9efff169fd3fb84d76cb1d9d8ea).
+Up to date as of [2b51f17](https://github.com/atomazu/atomazu.org/commit/2b51f17e2e8b227f98645a7580d9161893378780).
 
 ## Project Overview
 
@@ -11,30 +11,7 @@ This project is a dual-purpose repository that includes both the frontend and ba
 -   **Frontend**: A static site built with HTML, CSS, and vanilla JavaScript. It fetches and displays blog posts from the backend API.
 -   **Backend**: A Node.js application using Express.js. It serves a REST API for managing blog posts, which are stored as Markdown files with front-matter.
 
-## Features
-
--   **Blog**: The core of the site is a blog where I post about various topics, primarily related to Japanese language learning.
--   **REST API**: The backend provides a simple API for creating, reading, updating, and deleting blog posts.
--   **Markdown-based**: Blog posts are written in Markdown, making them easy to write and manage.
--   **Simple Authentication**: The API is protected by a simple token-based authentication system.
-
-## Tech Stack
-
--   **Frontend**:
-    -   HTML5
-    -   CSS3
-    -   Vanilla JavaScript (ESM)
--   **Backend**:
-    -   Node.js
-    -   Express.js
-    -   `marked` for Markdown to HTML conversion
-    -   `gray-matter` for parsing front-matter from Markdown files
-
 ## Getting Started
-
-### Prerequisites
-
--   Node.js and npm installed.
 
 ### Installation
 
@@ -65,9 +42,9 @@ This project is a dual-purpose repository that includes both the frontend and ba
 
 The application will be available at `http://localhost:3000`.
 
-## API Endpoints
+#### I personally like to run it [declaratively](https://github.com/atomazu/my-nixos/blob/18a350105f59c80a1067dda656a361a43a1f9b3f/hosts/desktop/default.nix).
 
-The API is available under the `/posts` prefix.
+## API Endpoints
 
 -   `GET /posts`: Get a list of all blog posts.
 -   `GET /posts/:slug`: Get a single blog post by its slug.
