@@ -7,14 +7,7 @@ const matter = require('gray-matter');
 const createRouter = ({ authMiddleware, POSTS_DIR }) => {
     const router = express.Router();
 
-    const slugify = (text) =>
-        text
-            .toString()
-            .toLowerCase()
-            .trim()
-            .replace(/\s+/g, '-')    
-            .replace(/[^\w\-]+/g, '')
-            .replace(/\-\-+/g, '-');
+    
 
     const formatDate = (date) => {
         const d = new Date(date);
@@ -129,7 +122,7 @@ const createRouter = ({ authMiddleware, POSTS_DIR }) => {
         if (!title || !by || !markdownContent) {
             return res.status(400).json({ error: 'Missing fields: title, by, markdownContent' });
         }
-        const newSlug = slugify(title);
+        const newSlug = Math.floor(Date.now() / 1000).toString();
         const newFilePath = path.join(POSTS_DIR, `${newSlug}.md`);
         if (fs.existsSync(newFilePath)) {
             return res.status(409).json({ error: `A post with slug '${newSlug}' already exists.` });
