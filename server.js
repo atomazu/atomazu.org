@@ -1,17 +1,17 @@
 const fs = require('fs');
-const POSTS = process.env.POSTS;
+const path = require('path');
 
-if (!POSTS) {
-  console.warn("No POSTS environment variable defined, falling back to ./posts");
+const POSTS_DIR = process.env.POSTS;
+
+if (!POSTS_DIR) {
+    console.error("POSTS environment variable is required!");
+    process.exit(1);
 }
-
-const POSTS_DIR = POSTS || path.join(__dirname, 'posts');
 fs.mkdirSync(POSTS_DIR, { recursive: true });
 
 
 const express = require('express');
 const cors = require('cors');
-const path = require('path');
 const createPostsRouter = require('./routes/posts');
 const app = express();
 const PORT = process.env.PORT || 3000;
