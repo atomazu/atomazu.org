@@ -1,8 +1,8 @@
 # atomazu.org
 
-This repository contains the source code for my personal website and blog, [blog.atomazu.org](https://blog.atomazu.org).
+This repository contains the source code for my personal website and blog hosted at [blog.atomazu.org](https://blog.atomazu.org). Note that the blog is only online when my host PC is running.
 
-Up to date as of [2b51f17](https://github.com/atomazu/atomazu.org/commit/2b51f17e2e8b227f98645a7580d9161893378780).
+> This README is up to date as of [5c77349](https://github.com/atomazu/atomazu.org/commit/5c773492d07a99ae2e5c6ca51aa6c978efe3a768).
 
 ## Project Overview
 
@@ -42,7 +42,7 @@ This project is a dual-purpose repository that includes both the frontend and ba
 
 The application will be available at `http://localhost:3000`.
 
-#### I personally like to run it [declaratively](https://github.com/atomazu/my-nixos/blob/18a350105f59c80a1067dda656a361a43a1f9b3f/hosts/desktop/default.nix).
+#### I personally like to run it [declaratively](https://github.com/atomazu/my-nixos/blob/07fe8368238d6650f09dfee28ea5b3bed94efca1/hosts/desktop/blog.nix).
 
 ## API Endpoints
 
