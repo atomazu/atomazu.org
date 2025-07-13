@@ -11,20 +11,6 @@ This project is a dual-purpose repository that includes both the frontend and ba
 -   **Frontend**: A static site built with HTML, CSS, and vanilla JavaScript. It fetches and displays blog posts from the backend API.
 -   **Backend**: A Node.js application using Express.js. It serves a REST API for managing blog posts, which are stored as Markdown files with front-matter.
 
-## Getting Started
-
-### Installation
-
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/atomazu/atomazu.org.git
-    cd atomazu.org
-    ```
-2.  Install the dependencies:
-    ```bash
-    npm install
-    ```
-
 ### Running the application
 
 1.  Create a `.env` file in the root of the project and add the following environment variables:
@@ -37,6 +23,7 @@ This project is a dual-purpose repository that includes both the frontend and ba
 2.  Start the server:
 
     ```bash
+    npm install
     npm start
     ```
 
