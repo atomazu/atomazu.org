@@ -1,4 +1,4 @@
-# atomazu.org
+# blog.atomazu.org
 
 This repository contains the source code for my personal website and blog hosted at [blog.atomazu.org](https://blog.atomazu.org). Note that the blog is only online when my host PC is running.
 
@@ -23,8 +23,8 @@ This project is a dual-purpose repository that includes both the frontend and ba
 2.  Start the server:
 
     ```bash
-    npm install
-    npm start
+    npm install # install dependencies
+    npm start   # and start the server
     ```
 
 The application will be available at `http://localhost:3000`.
