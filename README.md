@@ -1,6 +1,8 @@
 # blog.atomazu.org
 
-#### Note that this blog is only online when my personal computer is running. I'm planning on hosting it somewhere else (but SSL is a nightmare).
+#### Note that this blog is only online when my personal computer is running. 
+
+##### I'm planning on hosting it somewhere else (but SSL is a nightmare).
 
 This repository contains the source code for my personal website and blog hosted at [blog.atomazu.org](https://blog.atomazu.org). 
 
