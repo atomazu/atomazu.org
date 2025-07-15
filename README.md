@@ -1,6 +1,8 @@
 # blog.atomazu.org
 
-This repository contains the source code for my personal website and blog hosted at [blog.atomazu.org](https://blog.atomazu.org). Note that the blog is only online when my host PC is running.
+This repository contains the source code for my personal website and blog hosted at [blog.atomazu.org](https://blog.atomazu.org). 
+
+#### Note that the blog is only online when my personal computer is running, I'm planning no hosting it somewhere else (but ssl is a nightmare).
 
 > This README is up to date as of [5c77349](https://github.com/atomazu/atomazu.org/commit/5c773492d07a99ae2e5c6ca51aa6c978efe3a768).
 
